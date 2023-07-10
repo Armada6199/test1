@@ -1,0 +1,67 @@
+.main__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+.main__container .main__burger {
+  width: 50%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  transition: all 0.7s ease-in-out;
+}
+.main__container .main__burger .layer__one {
+  width: 50%;
+  height: 80px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  background: rgb(225, 121, 45);
+  background: linear-gradient(180deg, rgb(225, 121, 45) 0%, rgba(225, 121, 45, 0.7904411765) 67%, rgba(225, 121, 45, 0.7736344538) 100%);
+}
+.main__container .main__burger .tomato__layer {
+  width: 50%;
+  height: 15px;
+  background-color: #C64A44;
+}
+.main__container .main__burger .layer__three {
+  width: 55%;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #63B349;
+}
+.main__container .main__burger .layer__five {
+  width: 55%;
+  height: 25px;
+  border-radius: 50px;
+  background-color: #E9C339;
+}
+.main__container .main__burger .layer__six {
+  width: 50%;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #602F18;
+}
+.main__container .main__burger .layer__siven {
+  width: 50%;
+  height: 70px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  background: rgb(225, 121, 45);
+  background: linear-gradient(180deg, rgb(225, 121, 45) 0%, rgba(225, 121, 45, 0.7904411765) 67%, rgba(225, 121, 45, 0.7736344538) 100%);
+}
+.main__container .main__burger:hover {
+  gap: 20px;
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 600px) {
+  .main__burger {
+    flex: 1;
+  }
+}/*# sourceMappingURL=index.css.map */
